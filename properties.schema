@@ -27,6 +27,35 @@
       "inputType": "Text",
       "validators": [],
       "help": "This is the instruction text"
+    },
+    "links": {
+      "type": "array",
+      "required": true,
+      "title": "Links",
+      "items": {
+        "type": "object",
+        "required": true,
+        "properties": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "inputType": "Text",
+            "title": "Link Label",
+            "default": "",
+            "validators": [ "required" ],
+            "help": "This defined the label that will appear on the link."
+          },
+          "content": {
+            "type": "string",
+            "required": true,
+            "inputType": "TextArea",
+            "title": "Link Content",
+            "default": "",
+            "validators": [ "required" ],
+            "help": "The content that will appear when the link is clicked."
+          }
+        }
+      }
     }
   }
 }

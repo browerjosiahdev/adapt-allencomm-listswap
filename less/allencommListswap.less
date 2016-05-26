@@ -1,3 +1,43 @@
 .allencomm-listswap {
-  
+  .content-container {
+    .content {
+      display: none;
+
+      &.show {
+        display: block;
+        opacity: 0;
+
+        &.show-active {
+          opacity: 1;
+          transition: opacity 1000ms ease-in-out;
+          -o-transition: opacity 1000ms ease-in-out;
+          -ms-transition: opacity 1000ms ease-in-out;
+          -moz-transition: opacity 1000ms ease-in-out;
+          -webkit-transition: opacity 1000ms ease-in-out;
+        }
+      }
+    }
+  }
+
+  .links-container {
+    .link {
+      background-color: @button-color;
+      box-sizing: border-box;
+      color: @button-text-color;
+      cursor: pointer;
+      margin: 5px 0;
+      padding: 5px 10px;
+      width: 100%;
+    }
+  }
+}
+
+.no-touch {
+  .links-container {
+    .link {
+      &:hover {
+        background-color: @button-hover-color;
+      }
+    }
+  }
 }

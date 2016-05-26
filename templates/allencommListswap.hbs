@@ -1,3 +1,17 @@
-<div class="allencomm-listswap component-inner text-inner" role="region" aria-label="{{_globals._components._text.ariaRegion}}">
+<div class="allencomm-listswap component-inner text-inner" role="region" aria-label="{{_globals._components._allencommListswap.ariaRegion}}">
     {{> component this}}
+    <div class="links-container">
+      {{#each links}}
+        <div class="link" data-index="{{@index}}">
+          {{label}}
+        </div>
+      {{/each}}
+    </div>
+    <div class="content-container">
+      {{#each links}}
+        <div class="content">
+          {{{content}}}
+        </div>
+      {{/each}}
+    </div>
 </div>
