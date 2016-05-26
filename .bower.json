@@ -1,0 +1,26 @@
+{
+  "name": "adapt-allencomm-listswap",
+  "version": "0.0.0",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/browerjosiahdev/adapt-allencomm-listswap",
+  "issues": "https://github.com/browerjosiahdev/adapt-allencomm-listswap/issues",
+  "displayName": "AllenComm List Swap",
+  "component": "allencommListswap",
+  "description": "List swap component for the Adapt framework built by AllenComm.",
+  "main": "/js/adapt-allencomm-listswap.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "0.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.0",
+    "commit": "9b0b93e8b1ad3905d911ce088bbd508b7c704eec"
+  },
+  "_source": "https://github.com/browerjosiahdev/adapt-allencomm-listswap.git",
+  "_target": "~0.0.0",
+  "_originalSource": "adapt-allencomm-listswap",
+  "_direct": true
+}
